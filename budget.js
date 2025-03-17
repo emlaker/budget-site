@@ -10,7 +10,7 @@ async function login() {
     loginMessage.innerText = "Logging in...";
 
     try {
-        const response = await fetch(`https://cognito-idp.${COGNITO_REGION}.amazonaws.com/`, {
+        const response = await fetch(`https://us-east-1h0xim5tfm.auth.us-east-1.amazoncognito.com`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-amz-json-1.1",
