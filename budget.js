@@ -1,5 +1,5 @@
-const COGNITO_CLIENT_ID = "YOUR_COGNITO_APP_CLIENT_ID";
-const COGNITO_USER_POOL_ID = "YOUR_COGNITO_USER_POOL_ID";
+const COGNITO_CLIENT_ID = "7huhjr18f1fup31qrefifvgb1r";
+const COGNITO_USER_POOL_ID = "us-east-1_H0XIM5TfM";
 const COGNITO_REGION = "us-east-1"; // Change to your AWS region
 
 async function login() {
