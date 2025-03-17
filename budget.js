@@ -50,5 +50,5 @@
         // Add event listener to the button
         document.getElementById('redirectButton').addEventListener('click', function() {
             // Change this URL to the page you want to navigate to
-            window.location.href = "https://us-east-1h0xim5tfm.auth.us-east-1.amazoncognito.com";
+            window.location.href = "https://us-east-1h0xim5tfm.auth.us-east-1.amazoncognito.com/login?redirect_uri=https://ec2-100-24-21-47.compute-1.amazonaws.com/budget-site/logged-in.html";
         });
