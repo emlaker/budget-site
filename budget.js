@@ -10,7 +10,7 @@ async function login() {
     loginMessage.innerText = "Logging in...";
 
     try {
-        const response = await fetch(`https://us-east-1h0xim5tfm.auth.us-east-1.amazoncognito.com`, {
+        const response = await fetch(`https://us-east-1h0xim5tfm.auth.us-east-1.amazoncognito.com/login?client_id=7huhjr18f1fup31qrefifvgb1r&response_type=token&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fec2-100-24-21-47.compute-1.amazonaws.com%2Fbudget-site%2Flogged-in.html`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-amz-json-1.1",
