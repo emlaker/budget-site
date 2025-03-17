@@ -50,5 +50,5 @@
         // Add event listener to the button
         document.getElementById('redirectButton').addEventListener('click', function() {
             // Change this URL to the page you want to navigate to
-            window.location.href = "https://www.example.com";
+            window.location.href = "https://us-east-1h0xim5tfm.auth.us-east-1.amazoncognito.com";
         });
