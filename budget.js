@@ -50,5 +50,5 @@
         // Add event listener to the button
         document.getElementById('redirectButton').addEventListener('click', function() {
             // Change this URL to the page you want to navigate to
-            window.location.href = "https://us-east-1h0xim5tfm.0auth2.us-east-1.amazoncognito.com/login?client_id=7huhjr18f1fup31qrefifvgb1r&response_type=code&redirect_uri=https://ec2-100-24-21-47.compute-1.amazonaws.com/budget-site/logged-in.html";
+            window.location.href = "https://us-east-1h0xim5tfm.auth.us-east-1.amazoncognito.com/oauth2/authorize?client_id=7huhjr18f1fup31qrefifvgb1r&response_type=code&redirect_uri=https://ec2-100-24-21-47.compute-1.amazonaws.com/budget-site/logged-in.html";
         });
